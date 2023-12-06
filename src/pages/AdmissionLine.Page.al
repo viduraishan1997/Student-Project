@@ -11,14 +11,6 @@ page 51007 "Admission Sub Form"
         {
             repeater(GroupName)
             {
-                // field("Admison ID"; Rec."Admison ID")
-                // {
-                //     ApplicationArea = All;
-                // }
-                // field("Line No."; Rec."Line No.")
-                // {
-                //     ApplicationArea = All;
-                // }
                 field("Subject ID"; Rec."Subject ID")
                 {
                     ApplicationArea = All;
