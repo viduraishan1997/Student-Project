@@ -23,9 +23,7 @@ table 51000 Student
                 ValidateNIC();
             end;
         }
-        field(4;
-        Address;
-        Text[50])
+        field(4; Address; Text[50])
         {
             Caption = 'Address';
             DataClassification = ToBeClassified;
@@ -89,7 +87,7 @@ table 51000 Student
                 Error('Invalid');
         end
         else
-            Error('Invalid');
+            Error('Invalid entry');
     end;
 
     trigger OnInsert()
