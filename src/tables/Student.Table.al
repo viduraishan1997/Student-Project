@@ -87,7 +87,7 @@ table 51000 Student
                 Error('Invalid');
         end
         else
-            Error('Invalid entry');
+            Error('Invalid entry default');
     end;
 
     trigger OnInsert()
